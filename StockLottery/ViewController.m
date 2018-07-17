@@ -25,6 +25,9 @@
     displayView.frame = CGRectMake(0, 0, 100, 100);
     displayView.center = self.view.center;
     [self.view addSubview:displayView];
+    
+    
+    NSLog(@"asdasdasd");
 }
 
 
