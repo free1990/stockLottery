@@ -108,7 +108,7 @@
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -286,7 +286,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = StockLottery/StockLottery.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: yu jiang (5TAWJWU9T3)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 447G7C95KR;
@@ -304,7 +303,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = StockLottery/StockLottery.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: yu jiang (447G7C95KR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
