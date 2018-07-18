@@ -1,0 +1,39 @@
+PODS:
+  - Bugly (2.4.8)
+  - GJRedDot (1.1.1):
+    - GJRedDot/GJDeallocBlockExecutor (= 1.1.1)
+  - GJRedDot/GJDeallocBlockExecutor (1.1.1)
+  - RTRootNavigationController (0.6.6):
+    - RTRootNavigationController/Core (= 0.6.6)
+  - RTRootNavigationController/Core (0.6.6)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SensorsAnalyticsSDK/core (1.8.9)
+  - SensorsAnalyticsSDK/IDFA (1.8.9):
+    - SensorsAnalyticsSDK/core
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Bugly (~> 2.4.8)
+  - GJRedDot (~> 1.1.1)
+  - RTRootNavigationController (~> 0.6.4)
+  - SDCycleScrollView (~> 1.65)
+  - SDWebImage (~> 3.8.2)
+  - SensorsAnalyticsSDK/IDFA (= 1.8.9)
+  - YYText (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  GJRedDot: de661162a700f3395f0cd70f3629e4d3abe8e181
+  RTRootNavigationController: 1429554f853e8319a383849befed73d5dc58a108
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SensorsAnalyticsSDK: 67266205865246c8fe7e7d8f7c7fdb99ee01f9c8
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: dc09b6ac8c1fa9ff16cbb1bae3a23e06424f17f5
+
+COCOAPODS: 1.4.0

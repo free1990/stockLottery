@@ -1,0 +1,6 @@
+framework module Pods_StockLottery {
+  umbrella header "Pods-StockLottery-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GJRedDot" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/SDCycleScrollView" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SensorsAnalyticsSDK" "${PODS_CONFIGURATION_BUILD_DIR}/YYText" "${PODS_ROOT}/Bugly"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bugly"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GJRedDot/GJRedDot.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController/RTRootNavigationController.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SDCycleScrollView/SDCycleScrollView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SensorsAnalyticsSDK/SensorsAnalyticsSDK.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/YYText/YYText.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bugly"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "Bugly" -framework "GJRedDot" -framework "RTRootNavigationController" -framework "SDCycleScrollView" -framework "SDWebImage" -framework "Security" -framework "SensorsAnalyticsSDK" -framework "SystemConfiguration" -framework "YYText"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

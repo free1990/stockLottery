@@ -26,9 +26,7 @@
     displayView.center = self.view.center;
     [self.view addSubview:displayView];
     
-    
     NSLog(@"version 1.0.1");
-    
     NSLog(@"asdasdasd");
 }
 

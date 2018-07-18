@@ -1,0 +1,6 @@
+framework module GJRedDot {
+  umbrella header "GJRedDot-umbrella.h"
+
+  export *
+  module * { export * }
+}
